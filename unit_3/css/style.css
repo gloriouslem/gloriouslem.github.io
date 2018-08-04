@@ -13,16 +13,17 @@ section {
 	height: auto;
 }
 
+
 h1 {
 	font-size: 2.5em;
 }
 
 h2 {
-	font-size: 1.6em;#
+	font-size: 1.5em;#
 }
 
 h3 {
-	font-size: 1.4em;	
+	font-size: 1.2em;	
 }
 
 p {
@@ -94,9 +95,10 @@ footer {
 	padding: 80px 0px;
 	margin: 0px;
 	text-align: center;
-	background: url("http://www.arrigoniwoods.com/sites/default/files/livingwood.jpg");
+	background-image: url("../images/img2.png");
+	/*background: url("http://www.arrigoniwoods.com/sites/default/files/livingwood.jpg");*/
 	background-color: #000;
-	background-size: cover;
+	background-size: inherit;
 }
 
 #business {
@@ -115,10 +117,32 @@ footer {
 }
 
 #explore {
+	padding: 25px;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 3px;
+	background-color: #e5e7ea;
+	text-align: left;
+}
+
+/*#explore {
+	padding: 25px;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 3px;
+	background-color: #e5e7ea;
+	text-align: left;
+}
+*/
+/*#explore {
 	height: 200px;
 	width: auto;
 	margin-top: 0px;
-	background-color: #FFF;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-radius: 8px;
+	padding-left: 20 px;
+	background-color: #e5e7ea;
 	color: #000;
 	text-align: left;
-}
+}*/
